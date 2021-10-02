@@ -43,6 +43,11 @@ body {
   font-size: 24px;
 }
 
+.link {
+  max-height: 30px;
+  max-height: 30px;
+}
+
 .tema button {
   align-self: flex-end;
   font-size: 24px;
@@ -57,8 +62,8 @@ body {
 .projetos {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  align-items: right;
+  background: linear-gradient(230.65deg, #116275 27.49%, #84daef 83.19%);
   margin-top: 32px;
   padding: 32px;
   box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
@@ -69,6 +74,7 @@ body {
   list-style: none;
   font-weight: 700;
   font-size: 32px;
+  color: white;
 }
 
 .projetos-item {
@@ -76,6 +82,7 @@ body {
   font-size: 24px;
   font-weight: 400;
   line-height: 48px;
+  color: #f8f4f4;
 }
 
 .projetos-item a {
